@@ -1,0 +1,17 @@
+.btn-info {
+    background: linear-gradient(45deg, red, cornflowerblue);
+}   
+html{
+    scroll-behavior: smooth;
+}
+@media(max-width:576px){
+    .carousel-caption{
+        bottom: 20px;
+    }
+}
+.carousel-caption h5{
+    font-size: 30px;
+}
+.carousel-caption p{
+    display: none;
+}
